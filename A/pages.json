@@ -1,0 +1,149 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/allService/allService",
+			"style": {
+				"navigationBarTitleText": "全部服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/dangjian/dangjian",
+			"style": {
+				"navigationBarTitleText": "智慧党建",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/park/index",
+			"style": {
+				"navigationBarTitleText": "停哪儿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/metro_query/index",
+			"style": {
+				"navigationBarTitleText": "城市地铁",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/bus_query/custom_shuttle",
+			"style": {
+				"navigationBarTitleText": "智慧巴士",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/outpatient/hospitalList",
+			"style": {
+				"navigationBarTitleText": "门诊预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/traffic/index",
+			"style": {
+				"navigationBarTitleText": "智慧交管",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/living_expenses/index",
+			"style": {
+				"navigationBarTitleText": "生活缴费",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/takeout/index",
+			"style": {
+				"navigationBarTitleText": "外卖订餐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/house/index",
+			"style": {
+				"navigationBarTitleText": "找房子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/movie/index",
+			"style": {
+				"navigationBarTitleText": "看电影",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/newsss",
+			"style": {
+				"navigationBarTitleText": "新闻详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#007AFF",
+		"list": [{
+				"iconPath": "static/icon/home.png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/icon/selhome.png",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/icon/allservices.png",
+				"pagePath": "pages/allService/allService",
+				"selectedIconPath": "static/icon/selallservices.png",
+				"text": "全部服务"
+			},
+			{
+				"iconPath": "static/icon/activity.png",
+				"pagePath": "pages/dangjian/dangjian",
+				"selectedIconPath": "static/icon/selactivity.png",
+				"text": "党建"
+			},
+			{
+				"iconPath": "static/icon/new.png",
+				"pagePath": "pages/news/news",
+				"selectedIconPath": "static/icon/selnew.png",
+				"text": "新闻"
+			},
+			{
+				"iconPath": "static/icon/my.png",
+				"pagePath": "pages/my/my",
+				"selectedIconPath": "static/icon/selmy.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,104 @@
+
+.searchBox {
+	padding: 15rpx;
+}
+.searchBg {
+	background-color: #C8C7CC;
+	border-radius: 15rpx;
+	height: 60rpx;
+}
+.swiperBox {
+	margin: 15rpx;
+	height: 150px;
+	border-radius: 20rpx;
+}
+.banner {
+	width: 720rpx;
+	height: 150px;
+	border-radius: 20rpx;
+}
+.service {
+	margin: 15rpx;
+	border-radius: 15rpx;
+}
+.service-top-item {
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 20%;
+}
+.service-top-item-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.service-top-item-icon-desc {
+	text-align: center;
+}
+.Theme {
+	float: left;
+	margin: 15rpx;
+	width: 720rpx;
+	border-radius: 15rpx;
+	/* background-color: #007AFF; */
+}
+.Theme-top-item {
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 50%;
+}
+.Theme-top-item-icon {
+	width: 355rpx;
+	height: 200rpx;
+	background-color: #C8C7CC;
+	border-radius: 20px;
+}
+.Theme-top-item-icon-desc {
+	text-align: left;
+	margin-left: 20rpx;
+	margin: 10rpx;
+}
+.newbox {
+	margin: 230rpx 15rpx 15rpx 15rpx;
+}
+.scroll-x {
+	display: flex;
+	white-space: nowrap;
+}
+.title {
+	padding: 0 30rpx;
+	font-size: 18px;
+}
+.itemTabSelect {
+	color: #007AFF;
+	border-bottom-width: 3px;
+}
+.bg {
+	margin: 15rpx;
+	border-radius: 5px;
+	background-color: #C8C7CC;
+	padding: 10px;
+}
+.newtitle {
+	font-size: 18px;
+	font-weight: bold;
+	/* 行高 */
+	line-height: 30px;
+}
+.newimg {
+	margin-top: 5px;
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.desc {
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.time {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #000000;
+}
+

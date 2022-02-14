@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/allService/allService",
+    "pages/dangjian/dangjian",
+    "pages/news/news",
+    "pages/my/my",
+    "pages/index/park/index",
+    "pages/index/metro_query/index",
+    "pages/index/bus_query/custom_shuttle",
+    "pages/index/outpatient/hospitalList",
+    "pages/index/traffic/index",
+    "pages/index/living_expenses/index",
+    "pages/index/takeout/index",
+    "pages/index/house/index",
+    "pages/index/movie/index",
+    "pages/index/newsss"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "iconPath": "static/icon/home.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/icon/selhome.png",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/icon/allservices.png",
+        "pagePath": "pages/allService/allService",
+        "selectedIconPath": "static/icon/selallservices.png",
+        "text": "全部服务"
+      },
+      {
+        "iconPath": "static/icon/activity.png",
+        "pagePath": "pages/dangjian/dangjian",
+        "selectedIconPath": "static/icon/selactivity.png",
+        "text": "党建"
+      },
+      {
+        "iconPath": "static/icon/new.png",
+        "pagePath": "pages/news/news",
+        "selectedIconPath": "static/icon/selnew.png",
+        "text": "新闻"
+      },
+      {
+        "iconPath": "static/icon/my.png",
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "static/icon/selmy.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
