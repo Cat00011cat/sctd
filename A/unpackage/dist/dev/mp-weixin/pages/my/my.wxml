@@ -1,1 +1,1 @@
-<view></view>
+<view>{{'身份证ID：\n\t'+data+''}}<view class="myBg"><image class="myAvatar" src="../../static/icon/allservices.png" mode></image><text class="myName">NAME</text></view><view class="myMenu"><view class="myTitle"><text>个人信息</text><text class="right">></text></view></view></view>

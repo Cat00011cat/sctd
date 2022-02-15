@@ -1,0 +1,38 @@
+
+.service {
+	margin: 15rpx;
+	border-radius: 15rpx;
+}
+.service-top-item {
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 20%;
+}
+.service-top-item-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.service-top-item-icon-desc {
+	text-align: center;
+}
+
+/* test*/
+
+/* 	.pric {
+	height: 100%;
+	display: flex;
+}
+
+.leftView {
+	width: 300rpx;
+	height: 100%;
+	border-right: 1rpx solid #000000;
+
+}
+
+.a {
+	padding: 10px
+} */
+

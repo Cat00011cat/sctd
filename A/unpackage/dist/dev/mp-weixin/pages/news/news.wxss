@@ -1,0 +1,57 @@
+
+.swiperBox {
+	margin: 15rpx;
+	height: 150px;
+	border-radius: 20rpx;
+}
+.banner {
+	width: 720rpx;
+	height: 150px;
+	border-radius: 20rpx;
+}
+
+/*  */
+.newbox {
+	margin: 50rpx 15rpx 15rpx 15rpx;
+}
+.scroll-x {
+	display: flex;
+	white-space: nowrap;
+}
+.title {
+	padding: 0 30rpx;
+	font-size: 18px;
+}
+.itemTabSelect {
+	color: #007AFF;
+	border-bottom-width: 3px;
+}
+.bg {
+	margin: 15rpx;
+	border-radius: 5px;
+	/* background-color: #C8C7CC; */
+	padding: 10px;
+}
+.newtitle {
+	font-size: 18px;
+	font-weight: bold;
+	/* 行高 */
+	line-height: 30px;
+}
+.newimg {
+	margin-top: 5px;
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.desc {
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.time {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #000000;
+}
+

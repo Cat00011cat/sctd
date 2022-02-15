@@ -348,6 +348,11 @@ var urlHead = getApp().globalData.urlHead;var _default =
         url: ulink });
 
     },
+    toAllservice: function toAllservice() {
+      uni.switchTab({
+        url: '../allService/allService' });
+
+    },
     getAllNewsTab: function getAllNewsTab() {
       var that = this;
       uni.request({

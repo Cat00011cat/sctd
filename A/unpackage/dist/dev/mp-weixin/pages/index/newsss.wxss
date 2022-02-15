@@ -65,6 +65,48 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 新闻内容 */
 /* 模块背景用这个 fefefe   ios简约标准*/
 .bg {
@@ -72,12 +114,12 @@
 	background: #fefefe;
 	padding: 10px;
 }
-.titlea {
+.newtitle {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
 }
-.img {
+.newimg {
 	margin-top: 5px;
 	width: 100%;
 	height: 150px;

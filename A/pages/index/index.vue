@@ -30,7 +30,7 @@
 						<view class="service-top-item-icon-desc">{{item.serviceName}}</view>
 					</view>
 				</block>
-				<view class="service-top-item">
+				<view class="service-top-item" @click="toAllservice()">
 					<image src="../../static/icon/selcollect.png" class="service-top-item-icon"></image>
 					<view class="service-top-item-icon-desc">NAME</view>
 				</view>
@@ -155,6 +155,11 @@
 					url: ulink,
 				})
 			},
+			toAllservice() {
+				uni.switchTab({
+					url: '../allService/allService'
+				})
+			},
 			getAllNewsTab() {
 				let that = this;
 				uni.request({
@@ -219,7 +224,7 @@
 	}
 
 	.searchBg {
-		background-color: #C8C7CC;
+		background-color: #ebeaef;
 		border-radius: 15rpx;
 		height: 60rpx;
 	}
@@ -307,7 +312,7 @@
 	.bg {
 		margin: 15rpx;
 		border-radius: 5px;
-		background-color: #C8C7CC;
+		/* background-color: #C8C7CC; */
 		padding: 10px;
 	}
 

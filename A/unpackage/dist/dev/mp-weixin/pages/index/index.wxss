@@ -3,7 +3,7 @@
 	padding: 15rpx;
 }
 .searchBg {
-	background-color: #C8C7CC;
+	background-color: #ebeaef;
 	border-radius: 15rpx;
 	height: 60rpx;
 }
@@ -76,7 +76,7 @@
 .bg {
 	margin: 15rpx;
 	border-radius: 5px;
-	background-color: #C8C7CC;
+	/* background-color: #C8C7CC; */
 	padding: 10px;
 }
 .newtitle {
